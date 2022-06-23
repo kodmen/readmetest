@@ -1,6 +1,6 @@
 
 
-  **EĞİTİMDE OYUNLAŞTIRMA WEB PROJESİ**
+**EĞİTİMDE OYUNLAŞTIRMA WEB PROJESİ**
 
 **G181210055 -- Bedirhan Ergün**
 
@@ -286,11 +286,6 @@ etme kodu gönderiliyor
   görüyorsunuz
 
 ![](Resim/media/image19.png)
-+----------------------------------+----------------------------------+
-|   Şekil 6.4 Hesap aktif olduktan |   Şekil 6.5 Hesap aktif olmazsa  |
-|   sonra ekran görüntüsü          |   görünen ekran görüntüsü        |
-+----------------------------------+----------------------------------+
-
 
   **6.1.3 Şifremi Unuttum Ekranı**
 
