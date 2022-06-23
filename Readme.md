@@ -1,13 +1,13 @@
 
 
-> **EĞİTİMDE OYUNLAŞTIRMA WEB PROJESİ**
+  **EĞİTİMDE OYUNLAŞTIRMA WEB PROJESİ**
 
 **G181210055 -- Bedirhan Ergün**
 
 
 
 
-> **ÖNSÖZ**
+  **ÖNSÖZ**
 
 Teknoloji çağıyla birlikte hayat çok daha hızlı akmaya başlamıştır. Bu
 hızlı akışa
@@ -33,71 +33,71 @@ ders çalışma
 sürelerini arttırmak için gamification dinamiklerini kullanarak Egitim
 Partneri
 
-> uygulamasını geliştirdik.
->
-> Bu çalışmada bize destek olan Prof. Dr. Ahmet Zengin'e teşekkürleri
-> borç biliriz
+  uygulamasını geliştirdik.
+ 
+  Bu çalışmada bize destek olan Prof. Dr. Ahmet Zengin'e teşekkürleri
+  borç biliriz
 
 \"v
 
-> **İÇİNDEKİLER**
+  **İÇİNDEKİLER**
 
 
-> **BÖLÜM 2.VERİ TABANI
-> 1. POSTGRESQL VERİ TABANI
-> 2. VERİ TABANI YAPISI
-> 3. TABLO YAPILARI
-> 4. USER TABLOLARI
-> 5. DERS TABLOLARI
-> 6. KAYIT TABLOSU
-> 7. DERS ANALİZ TABLOSU
-> 8. TEST TABLOSU
-> 9. FORUM TABLOSU
-> 10. BLOG TABLOSU
+  **BÖLÜM 2.VERİ TABANI
+  1. POSTGRESQL VERİ TABANI
+  2. VERİ TABANI YAPISI
+  3. TABLO YAPILARI
+  4. USER TABLOLARI
+  5. DERS TABLOLARI
+  6. KAYIT TABLOSU
+  7. DERS ANALİZ TABLOSU
+  8. TEST TABLOSU
+  9. FORUM TABLOSU
+  10. BLOG TABLOSU
 
-> **BÖLÜM 3.API VE GÜVENLİK
-> 1. VERİ TABANI BAĞLANTISI
-> 2. APİ GÜVENLİĞİ
-> 3. SWAGER APİ DÖKÜMANSAYNONU
-> 4. EXCEPTİON
+  **BÖLÜM 3.API VE GÜVENLİK
+  1. VERİ TABANI BAĞLANTISI
+  2. APİ GÜVENLİĞİ
+  3. SWAGER APİ DÖKÜMANSAYNONU
+  4. EXCEPTİON
 
->**BÖLÜM 4.OYUN DİNAMİKLERİ
-> 1. TEST MEKANİĞİ
-> 2. PUAN MEKANİĞİ
-> 3. LEVEL MEKANİĞİ
+ **BÖLÜM 4.OYUN DİNAMİKLERİ
+  1. TEST MEKANİĞİ
+  2. PUAN MEKANİĞİ
+  3. LEVEL MEKANİĞİ
 
->**BÖLÜM 5.YÖNETİM PANELİ
-> 1. KULLANICI YÖNETİMİ
-> 2. UYGULAMA METRİKLERİ
+ **BÖLÜM 5.YÖNETİM PANELİ
+  1. KULLANICI YÖNETİMİ
+  2. UYGULAMA METRİKLERİ
 
->**BÖLÜM 6.ÖN YÜZ(FRONTEND) KISMI-EKRANLAR
-> 1. LOGİN-REGİSTER EKRANI
->   1. Üye G1r1ş Ekranı
->   2. Üye Olma Ekranı
->   3. Ş1frem1 Unuttum Ekranı
-> 2. PROFİL
-> 3. DERSLER EKRANI
-> 4. DERS DETAY EKRANI
-> 5. BÖLÜM DETAY
-> 6. TEST EKRANI
-> 7. DERS-ANALİZ EKRANI
-> 8. DUELLO
-> 9. BAŞARI SIRALAMASI
-> 10. BLOG SAYFASI
+ **BÖLÜM 6.ÖN YÜZ(FRONTEND) KISMI-EKRANLAR
+  1. LOGİN-REGİSTER EKRANI
+    1. Üye G1r1ş Ekranı
+    2. Üye Olma Ekranı
+    3. Ş1frem1 Unuttum Ekranı
+  2. PROFİL
+  3. DERSLER EKRANI
+  4. DERS DETAY EKRANI
+  5. BÖLÜM DETAY
+  6. TEST EKRANI
+  7. DERS-ANALİZ EKRANI
+  8. DUELLO
+  9. BAŞARI SIRALAMASI
+  10. BLOG SAYFASI
 
 **BÖLÜM 7.SONUÇLAR VE ÖNERİLER
 
 **BÖLÜM 8.KAYNAKÇA
 
 
-> **BÖLÜM 2.VERİ TABANI**
+  **BÖLÜM 2.VERİ TABANI**
 
 Backend kısmını java spring boot tercih ettiğimizden java ile iyi
 çalışan veri tabanı
 
-> postgresql ile oluşturduk.
->
-> **2.1 Postgresql Veri Tabanı**
+  postgresql ile oluşturduk.
+ 
+  **2.1 Postgresql Veri Tabanı**
 
 PostgreSQL, gelişmiş, kurumsal sınıf ve açık kaynaklı bir ilişkisel
 veritabanı
@@ -114,7 +114,7 @@ birçok web
 uygulamasının yanı sıra mobil ve analitik uygulamalar için birincil
 veritabanı olarak
 
-> kullanılır.
+  kullanılır.
 
 ![](Resim/media/image2.png)
 
@@ -122,18 +122,18 @@ veritabanı olarak
 
 
 
-> **2.2 Veri Tabanı Yapısı**
->
-> Veri tabanı ilişkisel yapımız aşağıdaki gibidir:
->
-> ![](Resim/media/image3.png)Şekil 2.2 Veri tabanı yapısı
+  **2.2 Veri Tabanı Yapısı**
+ 
+  Veri tabanı ilişkisel yapımız aşağıdaki gibidir:
+ 
+  ![](Resim/media/image3.png)Şekil 2.2 Veri tabanı yapısı
 
 
-> **2.3 Tablo Yapıları**
->
-> Veri tabanlarında, verileri tutmak için belli tablolar
-> hazırlanmaktadır. Projemizin veri tabanında işlemekte olan toplam 28
-> tablomuz bulunmaktadır
+  **2.3 Tablo Yapıları**
+ 
+  Veri tabanlarında, verileri tutmak için belli tablolar
+  hazırlanmaktadır. Projemizin veri tabanında işlemekte olan toplam 28
+  tablomuz bulunmaktadır
 
   ----------------------------------------------------------------------------------------------------------------------------
   ![](Resim/media/image4.png)
@@ -142,7 +142,7 @@ veritabanı olarak
 Şekil 2.3 Tablo yapıları
 
 
-> **2.4 User Tabloları**
+  **2.4 User Tabloları**
 
 User işlemlerinde yetkilendirme kullandığımız için her kullanıcın
 yetkisi için farklı
@@ -153,14 +153,14 @@ izinlere yetkisi
 olduğu bilgisini tutan tablo. Ayrıca öğrenci ve öğretmen tabloları user
 tablosundan
 
-> kalıtım alarak öğrenci ve öğretmenin kullanıcı olduğunu tanımlıyoruz.
+  kalıtım alarak öğrenci ve öğretmenin kullanıcı olduğunu tanımlıyoruz.
 
 ![](Resim/media/image5.png)
 
 Şekil 2.3 Kullanıcı tablo yapısı
 
 
-> **2.5 Ders Tabloları**
+  **2.5 Ders Tabloları**
 
 Uygulamamıza dersleri eklerken kullandığımız tablolar. Her dersin bir
 müfredatı
@@ -168,10 +168,10 @@ müfredatı
 oluyor bu müfredatın içinde bolümler oluyor. Bolüm ile müfredat arasında
 çok çok ilişkisi var.
 
-> ![](Resim/media/image6.png)Şekil 2.4 Ders tabloları
+  ![](Resim/media/image6.png)Şekil 2.4 Ders tabloları
 
 
-> **2.6 Kayıt Tablosu**
+  **2.6 Kayıt Tablosu**
 
 Öğrencinin derse kayıt bilgisini tutmak için kayıt tablosu. Öğrenci
 derse ait testleri
@@ -179,10 +179,10 @@ derse ait testleri
 ve dokümanlara erişebilmesi için derse kaydolması gerekmekte. Kayıt
 bilgilerinin tutulması için kayıt tablosu gerekliydi.
 
->
-> ![](Resim/media/image7.png)Şekil 2.5 Kayıt tablo yapısı
->
-> **2.7 Ders Analiz Tablosu**
+ 
+  ![](Resim/media/image7.png)Şekil 2.5 Kayıt tablo yapısı
+ 
+  **2.7 Ders Analiz Tablosu**
 
 Öğrenci derse kaydolduktan sonra derse ait analiz bilgilerini tutmak
 için ders analiz tablosu
@@ -191,21 +191,21 @@ için ders analiz tablosu
 Şekil 2.6 Ders analiz tablo yapısı
 
 
-> **2.8 Test Tablosu**
+  **2.8 Test Tablosu**
 
 Bölüme ait testleri bulunduran test tablosu
->
-> ![](Resim/media/image9.png)Şekil 2.7 Test tablosu
->
-> **2.9 Forum Tablosu**
+ 
+  ![](Resim/media/image9.png)Şekil 2.7 Test tablosu
+ 
+  **2.9 Forum Tablosu**
  
 Öğrencilerin derslere yorum yapabilmesi için derse ait forum tablosu
  oluşturduk.
->
-> ![](Resim/media/image10.png)Şekil 2.8 Forum tablosu
+ 
+  ![](Resim/media/image10.png)Şekil 2.8 Forum tablosu
 
 
-> **2.10 Blog Tablosu**
+  **2.10 Blog Tablosu**
 
 Öğretmenlerin öğrencileri bilgilendirmesi için blog yazılar paylaşmasına
 yönelik
@@ -215,13 +215,13 @@ tablosuna
 
 birçok ilişkili yani bir bloğun içinde çok entry(yazi) olabilir. Her
 entry'nin tag(ilgili konu) bilgi için ayrı bir tag tablosu oluşturuldu.
->
-> ![](Resim/media/image11.png)Şekil 2.9 Blog tablosu
+ 
+  ![](Resim/media/image11.png)Şekil 2.9 Blog tablosu
 
 
-> **BÖLÜM 5.YÖNETİM PANELİ**
->
-> **5.1 Kullanıcı Yönetimi**
+  **BÖLÜM 5.YÖNETİM PANELİ**
+ 
+  **5.1 Kullanıcı Yönetimi**
 
 Yönetim paneline girişi yalnızca admin yetkisine sahip kullanıcılar
 girebilir. Admin
@@ -234,41 +234,41 @@ sonra giriş yaptığı
 
 mail adresine hesabını aktif etmek için kod gönderiliyor eğer oradan
 aktif edemezse admin bu sayfa üzerinden aktif edebilir.
->
-> ![](Resim/media/image15.png)Şekil 5.1 Kullanıcı paneli
->
-> **5.2 Uygulama Metrikleri**
+ 
+  ![](Resim/media/image15.png)Şekil 5.1 Kullanıcı paneli
+ 
+  **5.2 Uygulama Metrikleri**
 
 Backend uygulamasını hangi durumda olduğu göstermek için hafıza,
 çekirdek ve
 
 sistem bilgilerinin ne durumda olduğunu göstermesi için java spring boot
 eklentileri eklenerek kolayca entegre ettik.
->
-> ![](Resim/media/image16.png)Şekil 5.2 Uygulama metrikleri
+ 
+  ![](Resim/media/image16.png)Şekil 5.2 Uygulama metrikleri
 
 
-> **BÖLÜM 6.ÖN YÜZ(FRONTEND) KISMI-EKRANLAR**\
-> 
-> 
+  **BÖLÜM 6.ÖN YÜZ(FRONTEND) KISMI-EKRANLAR**\
+  
+  
 Frontend kısmını angular 13 ile yazdım. Angular, Google tarafından
 geliştirilen ve
 desteklenen SPA(Single Page Application) uygulama yapılmasına olanak
 sağlayan javascript kütüphanesidir. Backend uygulamasını angulara bağlayarak api bağlantısını yaptım.
->
-> **6.1 Login-Register Ekranı**
->
-> Kullanıcıların sisteme giriş yapabildikleri ekran
->
-> **6.1.1 Üye Giriş Ekranı**
->
-> ![](Resim/media/image17.png) Şekil 6.1 Giriş yap ekran görüntüsü
->
-> **6.1.2 Üye Olma Ekranı**
+ 
+  **6.1 Login-Register Ekranı**
+ 
+  Kullanıcıların sisteme giriş yapabildikleri ekran
+ 
+  **6.1.1 Üye Giriş Ekranı**
+ 
+  ![](Resim/media/image17.png) Şekil 6.1 Giriş yap ekran görüntüsü
+ 
+  **6.1.2 Üye Olma Ekranı**
 
 Hesabınızı oluşturduktan sonra girdiğiniz mail adrese hesabınızı aktif
 etme kodu gönderiliyor
-> ![](Resim/media/image18.png)
+  ![](Resim/media/image18.png)
 
 Şekil 6.2 Üye ol ekran görüntüsü
 
@@ -276,23 +276,23 @@ etme kodu gönderiliyor
 
 
 
-> Mail adresinize gidip oradan linke tıklamalısınız
+  Mail adresinize gidip oradan linke tıklamalısınız
 
 Şekil 6.3 Mail gönderildikten sonra gelen ekran görüntüsü
 
-> Maildeki linke tıkladıktan sonra işlem başarılı ise succes değilse
-> error mesajını
->
-> görüyorsunuz
+  Maildeki linke tıkladıktan sonra işlem başarılı ise succes değilse
+  error mesajını
+ 
+  görüyorsunuz
 
 ![](Resim/media/image19.png)
 +----------------------------------+----------------------------------+
-| > Şekil 6.4 Hesap aktif olduktan | > Şekil 6.5 Hesap aktif olmazsa  |
-| > sonra ekran görüntüsü          | > görünen ekran görüntüsü        |
+|   Şekil 6.4 Hesap aktif olduktan |   Şekil 6.5 Hesap aktif olmazsa  |
+|   sonra ekran görüntüsü          |   görünen ekran görüntüsü        |
 +----------------------------------+----------------------------------+
 
 
-> **6.1.3 Şifremi Unuttum Ekranı**
+  **6.1.3 Şifremi Unuttum Ekranı**
 
 ![](Resim/media/image22.png)
 
@@ -301,32 +301,32 @@ etme kodu gönderiliyor
 Şifrenizi yenile sayfasında gönderdiğiniz mail adresinize link
 gönderiliyor linke tıklayınca sizi aşağıdaki sayfaya yönlendiriyor
 
-> ![](Resim/media/image23.png) Şekil 6.7 Şifre yenileme ekran görüntüsü
+  ![](Resim/media/image23.png) Şekil 6.7 Şifre yenileme ekran görüntüsü
 
 
-> **6.2 Profil**
+  **6.2 Profil**
 
 Giriş yaptıktan sonra profil sayfası karşılıyor bizi. Bu sayfada
 kullanıcı hakkında kısa bilgiler var. Kazandığı rozetler ve haftalık soru hedefi yine bu
 sayfada gözüküyor.
->
-> ![](Resim/media/image24.png)Şekil 6.8 Profil ekran görüntüsü
->
-> ![](Resim/media/image25.png)Şekil 6.9 Profil bilgileri güncelleme
-> ekran görüntüsü
+ 
+  ![](Resim/media/image24.png)Şekil 6.8 Profil ekran görüntüsü
+ 
+  ![](Resim/media/image25.png)Şekil 6.9 Profil bilgileri güncelleme
+  ekran görüntüsü
 
 34
 
-> **6.3 Dersler Ekranı**
+  **6.3 Dersler Ekranı**
 
 Admin ve öğretmenler tarafından oluşturulan dersler bu sayfada
 öğrencinin karşısına çıkıyor. Kullanıcı giriş yapmışsa derse kayıt olabiliyor, giriş yapmamış
 sadece dersin içeriğini görebiliyor
 
-> ![](Resim/media/image26.png)Şekil 6.10 Dersler ekran görüntüsü
+  ![](Resim/media/image26.png)Şekil 6.10 Dersler ekran görüntüsü
 
 
-> **6.4 Ders Detay Ekranı**
+  **6.4 Ders Detay Ekranı**
 
 Kullanıcı dersin üstüne tıkladığı zaman dersin bölümleri gelmekte bu
 sayfadan ders hakkında bilgi ve dersin bölümlerini görebiliyor.
@@ -337,41 +337,37 @@ sayfadan ders hakkında bilgi ve dersin bölümlerini görebiliyor.
 
 
 
-> **6.5 Bölüm Detay**
+  **6.5 Bölüm Detay**
 
 Girilen dersin içindeki bölümlerden bölüme tıkladıktan sonra ders
 çalıştığınız bölüme giriş yapıyorsunuz bölüm sayfasında video içerik ve doküman
 oluyor. Dersi bitirdikten sonra ders hakkında test çözüyorsunuz.
->
-> ![](Resim/media/image28.png)Şekil 6.12 Bölüm detay ekranı
+ 
+  ![](Resim/media/image28.png)Şekil 6.12 Bölüm detay ekranı
 
 
-> **6.6 Test Ekranı**
+  **6.6 Test Ekranı**
 
 Bölümün dersini izledikten sonra çalışılan konu hakkında test çözüme
 sayfası testi tamamladıktan sonar doğru yanlış sayısını size geri döndürüyor.
 
-> ![](Resim/media/image29.png)Şekil 6.13 Çözülmemiş test ekranı
->
-> Teste gönder\"nce doğru, yanlış ve boş sayısı backend kısmında
-> hesaplayıp b\"ze sonucunu ger\" döndürüyor
->
-> ![](Resim/media/image30.png){width="5.161111111111111in"
-> height="3.6180555555555554in"}Şekil 3.14 Çözülmüş test ekran görüntüsü
+  ![](Resim/media/image29.png)Şekil 6.13 Çözülmemiş test ekranı
+ 
+  Teste gönderince doğru, yanlış ve boş sayısı backend kısmında
+  hesaplayıp bize sonucunu geri döndürüyor
 
-38
 
-> **6.7 Ders-Analiz Ekranı**
->
-> Çözdüğümüz soruların analizini yapabileceğimiz analiz sayfası
->
-> ![](Resim/media/image31.png){width="5.708333333333333in"
-> height="4.0013877952755905in"}Şekil 6.15 Ders detay sayfası ekran
-> görüntüsü
+  ![](Resim/media/image30.png)Şekil 3.14 Çözülmüş test ekran görüntüsü
 
-39
 
-> **6.8 Düello**
+  **6.7 Ders-Analiz Ekranı**
+ 
+  Çözdüğümüz soruların analizini yapabileceğimiz analiz sayfası
+ 
+  ![](Resim/media/image31.png)Şekil 6.15 Ders detay sayfası ekran görüntüsü
+
+
+  **6.8 Düello**
 
 Düello sayfasında öğrenci soru çözüyor. Doğru şıkkı işaretleyince kendi
 karakteri
@@ -380,58 +376,35 @@ karşıdaki karaktere vuruyor, yanlış cevapta karşıdaki karakter oyuncunun
 karakterini
 
 dövüyor. Sayfanın üstünde can barı var hangi karakter daha fazla döverse
-o karakter
+o karakter kazanıyor. Bu sayede öğrenciyi daha fazla soru çözmesini sağlamaya çalışıyoruz.
 
-> kazanıyor. Bu sayede öğrenciyi daha fazla soru çözmesini sağlamaya
-> çalışıyoruz.
-
-![](Resim/media/image32.png){width="5.708333333333333in"
-height="3.723610017497813in"}
+![](Resim/media/image32.png)
 
 Şekil 6.16 Düello sayfası ekran görüntüsü
 
-40
-
-> **6.9 Başarı Sıralaması**
+  **6.9 Başarı Sıralaması**
 
 Öğrencilerin kazandıkları puanlara göre diğer öğrenciler ile sıralamaya
-girdikleri ilk
+girdikleri ilk on öğrencinin sıralama sayfası
+ 
+  ![](Resim/media/image33.png)Şekil 6.17 Başarı sıralaması ekran görüntüsü
 
-> on öğrencinin sıralama sayfası
->
-> ![](Resim/media/image33.png){width="5.708333333333333in"
-> height="3.723611111111111in"}Şekil 6.17 Başarı sıralaması ekran
-> görüntüsü
 
-41
-
-> **6.10 Blog Sayfası**
+  **6.10 Blog Sayfası**
 
 Blog sayfası öğrencilerin ve web sitesini ziyaret edenlerin
-bilgilenebileceği genel bir
+bilgilenebileceği genel bir sayfa bu sayfa sayesinde hem kendi kullanıcıları bilgileniyor hemde
+yabancı ziyaretçileri web sayfasına çekiyoruz. İnternette arama yaptığı
+kelimeler eğer blog sayfasındaki bilgilerle eşleşiyorsa ziyaretçiyi bizim web sayfasına yönlendirecek Böylece daha fazla kullanıcı çekme şansımız artıyor.
 
-sayfa bu sayfa sayesinde hem kendi kullanıcıları bilgileniyor hemde
-yabancı
-
-ziyaretçileri web sayfasına çekiyoruz. İnternette arama yaptığı
-kelimeler eğer blog
-
-> sayfasındaki bilgilerle eşleşiyorsa ziyaretçiyi bizim web sayfasına
-> yönlendirecek
->
-> Böylece daha fazla kullanıcı çekme şansımız artıyor.
->
-> ![](Resim/media/image34.png){width="5.438888888888889in"
-> height="3.548611111111111in"}
+  ![](Resim/media/image34.png)
 
 Şekil 6.18 Blog sayfası ekran görüntüsü
 
-> ![](Resim/media/image35.png){width="5.233332239720035in"
-> height="4.104165573053368in"}Şekil 6.19 Blog detay sayfası
+  ![](Resim/media/image35.png)Şekil 6.19 Blog detay sayfası
 
-42
 
-> **BÖLÜM 7. SONUÇLAR VE ÖNERİLER**
+  **BÖLÜM 7. SONUÇLAR VE ÖNERİLER**
 
 Çalışmamız sonucunda tezin hedeflediği amaçlar fazlasıyla yerine
 getirilmiştir. Hem
@@ -445,25 +418,25 @@ platform ortaya
 konmuştur. Gamification dinamiklerinin olduğu öğrencilerin derslerini
 takip
 
-> edebileceği ve ders çalışabileceği bir platform başarıyla
-> çalışmaktadır.
+  edebileceği ve ders çalışabileceği bir platform başarıyla
+  çalışmaktadır.
 
 Projemiz şu anda canlı ortamda çalışmaya hazır ve kaynak kodları tamamen
 açık
 
-> şekilde Github'da paylaşılmıştır.
->
-> Backend Github repositroy:
-> https://github.com/kodmen/egitim-partneri-back
->
-> Frontend Github repository:
-> https://github.com/kodmen/gamificationFront
->
-> Projenin geleceğinde ise:
->
-> •Dershane ve özel eğitim kurumları ile anlaşarak onların doküman
-> yardımları
->
-> ile tam donanımlı bir eğitim platformu haline gelinebilir\
-> •Gönüllü eğitmenler ile öğrencilere ücretsiz eğitim imkânı sunulabilir
-> •Yeni oyun dinamikleri eklenerek proje geliştirilebilir
+  şekilde Github'da paylaşılmıştır.
+ 
+  Backend Github repositroy:
+  https://github.com/kodmen/egitim-partneri-back
+ 
+  Frontend Github repository:
+  https://github.com/kodmen/gamificationFront
+ 
+  Projenin geleceğinde ise:
+ 
+  •Dershane ve özel eğitim kurumları ile anlaşarak onların doküman
+  yardımları
+ 
+  ile tam donanımlı bir eğitim platformu haline gelinebilir\
+  •Gönüllü eğitmenler ile öğrencilere ücretsiz eğitim imkânı sunulabilir
+  •Yeni oyun dinamikleri eklenerek proje geliştirilebilir
