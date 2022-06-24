@@ -116,17 +116,14 @@ veritabanı olarak
 
   kullanılır.
 
-![](Resim/media/image2.png)
-
-Şekil 2.1 Örnek PostgreSQL tablosu
-
+![](Resim/media/image2.png "Örnek PostgreSQL tablosu")
 
 
   **2.2 Veri Tabanı Yapısı**
  
   Veri tabanı ilişkisel yapımız aşağıdaki gibidir:
  
-  ![](Resim/media/image3.png)Şekil 2.2 Veri tabanı yapısı
+  ![](Resim/media/image3.png " Veri tabanı yapısı")
 
 
   **2.3 Tablo Yapıları**
@@ -136,10 +133,9 @@ veritabanı olarak
   tablomuz bulunmaktadır
 
   ----------------------------------------------------------------------------------------------------------------------------
-  ![](Resim/media/image4.png)
+  ![](Resim/media/image4.png "Tablo yapıları")
   ----------------------------------------------------------------------------------------------------------------------------
 
-Şekil 2.3 Tablo yapıları
 
 
   **2.4 User Tabloları**
@@ -155,10 +151,7 @@ tablosundan
 
   kalıtım alarak öğrenci ve öğretmenin kullanıcı olduğunu tanımlıyoruz.
 
-![](Resim/media/image5.png)
-
-Şekil 2.3 Kullanıcı tablo yapısı
-
+![](Resim/media/image5.png "Kullanıcı tablo yapısı")
 
   **2.5 Ders Tabloları**
 
@@ -168,7 +161,7 @@ müfredatı
 oluyor bu müfredatın içinde bolümler oluyor. Bolüm ile müfredat arasında
 çok çok ilişkisi var.
 
-  ![](Resim/media/image6.png)Şekil 2.4 Ders tabloları
+  ![](Resim/media/image6.png "Ders tabloları")
 
 
   **2.6 Kayıt Tablosu**
@@ -180,29 +173,27 @@ ve dokümanlara erişebilmesi için derse kaydolması gerekmekte. Kayıt
 bilgilerinin tutulması için kayıt tablosu gerekliydi.
 
  
-  ![](Resim/media/image7.png)Şekil 2.5 Kayıt tablo yapısı
+  ![](Resim/media/image7.png "Kayıt tablo yapısı")
  
   **2.7 Ders Analiz Tablosu**
 
 Öğrenci derse kaydolduktan sonra derse ait analiz bilgilerini tutmak
 için ders analiz tablosu
 
-![](Resim/media/image8.png)
-Şekil 2.6 Ders analiz tablo yapısı
-
+![](Resim/media/image8.png "Ders analiz tablo yapısı")
 
   **2.8 Test Tablosu**
 
 Bölüme ait testleri bulunduran test tablosu
  
-  ![](Resim/media/image9.png)Şekil 2.7 Test tablosu
+  ![](Resim/media/image9.png "Test tablosu")
  
   **2.9 Forum Tablosu**
  
 Öğrencilerin derslere yorum yapabilmesi için derse ait forum tablosu
  oluşturduk.
  
-  ![](Resim/media/image10.png)Şekil 2.8 Forum tablosu
+  ![](Resim/media/image10.png "Forum tablosu")
 
 
   **2.10 Blog Tablosu**
@@ -216,7 +207,7 @@ tablosuna
 birçok ilişkili yani bir bloğun içinde çok entry(yazi) olabilir. Her
 entry'nin tag(ilgili konu) bilgi için ayrı bir tag tablosu oluşturuldu.
  
-  ![](Resim/media/image11.png)Şekil 2.9 Blog tablosu
+  ![](Resim/media/image11.png "Blog tablosu")
 
 
   **BÖLÜM 5.YÖNETİM PANELİ**
@@ -235,7 +226,7 @@ sonra giriş yaptığı
 mail adresine hesabını aktif etmek için kod gönderiliyor eğer oradan
 aktif edemezse admin bu sayfa üzerinden aktif edebilir.
  
-  ![](Resim/media/image15.png)Şekil 5.1 Kullanıcı paneli
+  ![](Resim/media/image15.png "Kullanıcı paneli")
  
   **5.2 Uygulama Metrikleri**
 
@@ -245,7 +236,7 @@ Backend uygulamasını hangi durumda olduğu göstermek için hafıza,
 sistem bilgilerinin ne durumda olduğunu göstermesi için java spring boot
 eklentileri eklenerek kolayca entegre ettik.
  
-  ![](Resim/media/image16.png)Şekil 5.2 Uygulama metrikleri
+  ![](Resim/media/image16.png "Uygulama metrikleri")
 
 
   **BÖLÜM 6.ÖN YÜZ(FRONTEND) KISMI-EKRANLAR**\
@@ -262,17 +253,17 @@ sağlayan javascript kütüphanesidir. Backend uygulamasını angulara bağlayar
  
   **6.1.1 Üye Giriş Ekranı**
  
-  ![](Resim/media/image17.png) Şekil 6.1 Giriş yap ekran görüntüsü
+  ![](Resim/media/image17.png "Giriş yap ekran görüntüsü") 
  
   **6.1.2 Üye Olma Ekranı**
 
 Hesabınızı oluşturduktan sonra girdiğiniz mail adrese hesabınızı aktif
 etme kodu gönderiliyor
-  ![](Resim/media/image18.png)
+  ![](Resim/media/image18.png "Üye ol ekran görüntüsü")
 
-Şekil 6.2 Üye ol ekran görüntüsü
 
-![](Resim/media/image20.png)![](Resim/media/image21.png)
+![](Resim/media/image20.png)
+![](Resim/media/image21.png)
 
 
 
