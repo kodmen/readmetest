@@ -31,19 +31,14 @@ oyunlaştırmaya
 ders çalışma
 
 sürelerini arttırmak için gamification dinamiklerini kullanarak Egitim
-Partneri
-
-  uygulamasını geliştirdik.
+Partneri uygulamasını geliştirdik.
  
-  Bu çalışmada bize destek olan Prof. Dr. Ahmet Zengin'e teşekkürleri
-  borç biliriz
 
-\"v
 
   **İÇİNDEKİLER**
 
 
-  **BÖLÜM 2.VERİ TABANI
+  **BÖLÜM 2.VERİ TABANI**
   1. POSTGRESQL VERİ TABANI
   2. VERİ TABANI YAPISI
   3. TABLO YAPILARI
@@ -55,22 +50,22 @@ Partneri
   9. FORUM TABLOSU
   10. BLOG TABLOSU
 
-  **BÖLÜM 3.API VE GÜVENLİK
+  **BÖLÜM 3.API VE GÜVENLİK**
   1. VERİ TABANI BAĞLANTISI
   2. APİ GÜVENLİĞİ
   3. SWAGER APİ DÖKÜMANSAYNONU
   4. EXCEPTİON
 
- **BÖLÜM 4.OYUN DİNAMİKLERİ
+ **BÖLÜM 4.OYUN DİNAMİKLERİ**
   1. TEST MEKANİĞİ
   2. PUAN MEKANİĞİ
   3. LEVEL MEKANİĞİ
 
- **BÖLÜM 5.YÖNETİM PANELİ
+ **BÖLÜM 5.YÖNETİM PANELİ**
   1. KULLANICI YÖNETİMİ
   2. UYGULAMA METRİKLERİ
 
- **BÖLÜM 6.ÖN YÜZ(FRONTEND) KISMI-EKRANLAR
+ **BÖLÜM 6.ÖN YÜZ(FRONTEND) KISMI-EKRANLAR**
   1. LOGİN-REGİSTER EKRANI
     1. Üye G1r1ş Ekranı
     2. Üye Olma Ekranı
@@ -84,11 +79,6 @@ Partneri
   8. DUELLO
   9. BAŞARI SIRALAMASI
   10. BLOG SAYFASI
-
-**BÖLÜM 7.SONUÇLAR VE ÖNERİLER
-
-**BÖLÜM 8.KAYNAKÇA
-
 
   **BÖLÜM 2.VERİ TABANI**
 
