@@ -2,7 +2,7 @@
 
 **EĞİTİMDE OYUNLAŞTIRMA WEB PROJESİ**
 
-**G181210055 -- Bedirhan Ergün**
+**Bedirhan Ergün**
 
 
 
@@ -50,16 +50,6 @@ Partneri uygulamasını geliştirdik.
   9. FORUM TABLOSU
   10. BLOG TABLOSU
 
-  **BÖLÜM 3.API VE GÜVENLİK**
-  1. VERİ TABANI BAĞLANTISI
-  2. APİ GÜVENLİĞİ
-  3. SWAGER APİ DÖKÜMANSAYNONU
-  4. EXCEPTİON
-
- **BÖLÜM 4.OYUN DİNAMİKLERİ**
-  1. TEST MEKANİĞİ
-  2. PUAN MEKANİĞİ
-  3. LEVEL MEKANİĞİ
 
  **BÖLÜM 5.YÖNETİM PANELİ**
   1. KULLANICI YÖNETİMİ
@@ -83,9 +73,7 @@ Partneri uygulamasını geliştirdik.
   **BÖLÜM 2.VERİ TABANI**
 
 Backend kısmını java spring boot tercih ettiğimizden java ile iyi
-çalışan veri tabanı
-
-  postgresql ile oluşturduk.
+çalışan veri tabanı postgresql ile oluşturduk.
  
   **2.1 Postgresql Veri Tabanı**
 
@@ -102,9 +90,7 @@ geliştirmeyle desteklenen oldukça kararlı bir veritabanıdır. PostgreSQL,
 birçok web
 
 uygulamasının yanı sıra mobil ve analitik uygulamalar için birincil
-veritabanı olarak
-
-  kullanılır.
+veritabanı olarak kullanılır.
 
 ![](Resim/media/image2.png "Örnek PostgreSQL tablosu")
 
