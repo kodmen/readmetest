@@ -257,37 +257,30 @@ sağlayan javascript kütüphanesidir. Backend uygulamasını angulara bağlayar
  
   **6.1.2 Üye Olma Ekranı**
 
+
+  ![](Resim/media/image18.png "Üye ol ekran görüntüsü")
 Hesabınızı oluşturduktan sonra girdiğiniz mail adrese hesabınızı aktif
 etme kodu gönderiliyor
-  ![](Resim/media/image18.png "Üye ol ekran görüntüsü")
 
-
-![](Resim/media/image20.png)
-![](Resim/media/image21.png)
-
-
-
+![](Resim/media/image20.png "Mail gönderildikten sonra gelen ekran görüntüsü") 
   Mail adresinize gidip oradan linke tıklamalısınız
 
-Şekil 6.3 Mail gönderildikten sonra gelen ekran görüntüsü
-
   Maildeki linke tıkladıktan sonra işlem başarılı ise succes değilse
-  error mesajını
- 
-  görüyorsunuz
-
-![](Resim/media/image19.png)
+  error mesajını görüyorsunuz
+<p float="left">
+  <img src="Resim/media/image21.png"  width="400" />
+  <img src="Resim/media/image19.png" width="400" /> 
+</p>
 
   **6.1.3 Şifremi Unuttum Ekranı**
 
-![](Resim/media/image22.png)
+![](Resim/media/image22.png "Şifremi unuttum ekran görüntüsü")
 
-Şekil 6.6 Şifremi unuttum ekran görüntüsü
 
 Şifrenizi yenile sayfasında gönderdiğiniz mail adresinize link
 gönderiliyor linke tıklayınca sizi aşağıdaki sayfaya yönlendiriyor
 
-  ![](Resim/media/image23.png) Şekil 6.7 Şifre yenileme ekran görüntüsü
+  ![](Resim/media/image23.png "Şifre yenileme ekran görüntüsü")
 
 
   **6.2 Profil**
@@ -296,12 +289,9 @@ Giriş yaptıktan sonra profil sayfası karşılıyor bizi. Bu sayfada
 kullanıcı hakkında kısa bilgiler var. Kazandığı rozetler ve haftalık soru hedefi yine bu
 sayfada gözüküyor.
  
-  ![](Resim/media/image24.png)Şekil 6.8 Profil ekran görüntüsü
+  ![](Resim/media/image24.png "Profil ekran görüntüsü")
  
-  ![](Resim/media/image25.png)Şekil 6.9 Profil bilgileri güncelleme
-  ekran görüntüsü
-
-34
+  ![](Resim/media/image25.png "Profil bilgileri güncelleme ekran görüntüsü")
 
   **6.3 Dersler Ekranı**
 
@@ -309,7 +299,7 @@ Admin ve öğretmenler tarafından oluşturulan dersler bu sayfada
 öğrencinin karşısına çıkıyor. Kullanıcı giriş yapmışsa derse kayıt olabiliyor, giriş yapmamış
 sadece dersin içeriğini görebiliyor
 
-  ![](Resim/media/image26.png)Şekil 6.10 Dersler ekran görüntüsü
+  ![](Resim/media/image26.png "Dersler ekran görüntüsü")
 
 
   **6.4 Ders Detay Ekranı**
@@ -317,11 +307,7 @@ sadece dersin içeriğini görebiliyor
 Kullanıcı dersin üstüne tıkladığı zaman dersin bölümleri gelmekte bu
 sayfadan ders hakkında bilgi ve dersin bölümlerini görebiliyor.
 
-![](Resim/media/image27.png)
-
-Şekil 6.11 Ders detay ekran görüntüsü
-
-
+![](Resim/media/image27.png "Ders detay ekran görüntüsü")
 
   **6.5 Bölüm Detay**
 
@@ -329,28 +315,26 @@ Girilen dersin içindeki bölümlerden bölüme tıkladıktan sonra ders
 çalıştığınız bölüme giriş yapıyorsunuz bölüm sayfasında video içerik ve doküman
 oluyor. Dersi bitirdikten sonra ders hakkında test çözüyorsunuz.
  
-  ![](Resim/media/image28.png)Şekil 6.12 Bölüm detay ekranı
-
+  ![](Resim/media/image28.png "Bölüm detay ekranı")
 
   **6.6 Test Ekranı**
 
 Bölümün dersini izledikten sonra çalışılan konu hakkında test çözüme
 sayfası testi tamamladıktan sonar doğru yanlış sayısını size geri döndürüyor.
 
-  ![](Resim/media/image29.png)Şekil 6.13 Çözülmemiş test ekranı
+  ![](Resim/media/image29.png "Çözülmemiş test ekranı")
  
   Teste gönderince doğru, yanlış ve boş sayısı backend kısmında
   hesaplayıp bize sonucunu geri döndürüyor
 
 
-  ![](Resim/media/image30.png)Şekil 3.14 Çözülmüş test ekran görüntüsü
-
+  ![](Resim/media/image30.png "Çözülmüş test ekran görüntüsü") 
 
   **6.7 Ders-Analiz Ekranı**
  
   Çözdüğümüz soruların analizini yapabileceğimiz analiz sayfası
  
-  ![](Resim/media/image31.png)Şekil 6.15 Ders detay sayfası ekran görüntüsü
+  ![](Resim/media/image31.png "Ders detay sayfası ekran görüntüsü")
 
 
   **6.8 Düello**
